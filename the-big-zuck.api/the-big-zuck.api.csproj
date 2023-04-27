@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>the_big_zuck.api</RootNamespace>
+    <RootNamespace>the_big_zuck.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
