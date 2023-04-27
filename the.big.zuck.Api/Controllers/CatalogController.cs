@@ -43,5 +43,17 @@ namespace the.big.zuck.Api.Controllers
 
             return Ok(item);
         }
+
+        [HttpPut("{id:int}")]
+        public IActionResult Put(int id, Item item)
+        {
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult Delete(int id)
+        {
+            return NoContent();
+        }
     }
 }
