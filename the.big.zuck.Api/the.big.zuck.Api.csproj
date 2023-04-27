@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\the.big.zuck.Domain\the.big.zuck.Domain.csproj" />
+    <ProjectReference Include="..\the.big.zuck.Data\the.big.zuck.Data.csproj" />
   </ItemGroup>
 
 </Project>

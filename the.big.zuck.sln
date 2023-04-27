@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Api", "the.big
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Domain", "the.big.zuck.Domain\the.big.zuck.Domain.csproj", "{D781DB83-7B0C-4230-AF76-0380A444083F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Data", "the.big.zuck.Data\the.big.zuck.Data.csproj", "{35216F94-465B-416B-A916-6117ADC171D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D781DB83-7B0C-4230-AF76-0380A444083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D781DB83-7B0C-4230-AF76-0380A444083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D781DB83-7B0C-4230-AF76-0380A444083F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35216F94-465B-416B-A916-6117ADC171D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35216F94-465B-416B-A916-6117ADC171D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35216F94-465B-416B-A916-6117ADC171D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35216F94-465B-416B-A916-6117ADC171D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
