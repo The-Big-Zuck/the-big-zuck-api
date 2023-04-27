@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Api", "the.big.zuck.Api\the.big.zuck.Api.csproj", "{DF9C1D3D-C434-4BEC-92DD-AFFA36293465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Domain", "the.big.zuck.Domain\the.big.zuck.Domain.csproj", "{D781DB83-7B0C-4230-AF76-0380A444083F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF9C1D3D-C434-4BEC-92DD-AFFA36293465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9C1D3D-C434-4BEC-92DD-AFFA36293465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9C1D3D-C434-4BEC-92DD-AFFA36293465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9C1D3D-C434-4BEC-92DD-AFFA36293465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D781DB83-7B0C-4230-AF76-0380A444083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D781DB83-7B0C-4230-AF76-0380A444083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D781DB83-7B0C-4230-AF76-0380A444083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D781DB83-7B0C-4230-AF76-0380A444083F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

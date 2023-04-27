@@ -4,7 +4,6 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>the_big_zuck.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\the-big-zuck.Domain\the-big-zuck.Domain.csproj" />
+    <ProjectReference Include="..\the.big.zuck.Domain\the.big.zuck.Domain.csproj" />
   </ItemGroup>
 
 </Project>
