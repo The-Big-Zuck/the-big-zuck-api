@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Domain", "the.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Data", "the.big.zuck.Data\the.big.zuck.Data.csproj", "{35216F94-465B-416B-A916-6117ADC171D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98203B93-9F4B-43B2-862D-F6C17A133368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the.big.zuck.Domain.Tests", "tests\the.big.zuck.Domain.Tests\the.big.zuck.Domain.Tests.csproj", "{98EC367D-231E-4AC9-AA86-F852AB479FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{35216F94-465B-416B-A916-6117ADC171D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35216F94-465B-416B-A916-6117ADC171D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35216F94-465B-416B-A916-6117ADC171D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EC367D-231E-4AC9-AA86-F852AB479FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EC367D-231E-4AC9-AA86-F852AB479FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EC367D-231E-4AC9-AA86-F852AB479FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EC367D-231E-4AC9-AA86-F852AB479FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98EC367D-231E-4AC9-AA86-F852AB479FAC} = {98203B93-9F4B-43B2-862D-F6C17A133368}
 	EndGlobalSection
 EndGlobal
