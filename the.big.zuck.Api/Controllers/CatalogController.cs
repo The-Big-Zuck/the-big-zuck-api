@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using the.big.zuck.Domain.Catalog;
 using the.big.zuck.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace the.big.zuck.Api.Controllers
 {
@@ -76,6 +77,7 @@ namespace the.big.zuck.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);

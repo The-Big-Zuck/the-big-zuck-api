@@ -1,0 +1,10 @@
+###
+curl --request POST \
+  --url https://dev-jtfkew70eflyc7cz.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"Ks695EIneQu7j80ovvtlh7yk8vQawCFi","client_secret":"9r501oUhS7ONnSNq_oL44Oy5lxxnQlLA4fXLZ-IBwN1wGZUwFQide3YjtbbwUXz3","audience":"https://the-big-zuck","grant_type":"client_credentials"}'
+
+### DELETE a item to the catalog collection
+curl --request DELETE \
+    --url https://localhost:7250/catalog/3 \
+    --header 'authorization: Bearer {eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkVJalJQOE42Sl9qNW04VlFhelBZaSJ9.eyJpc3MiOiJodHRwczovL2Rldi1qdGZrZXc3MGVmbHljN2N6LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJLczY5NUVJbmVRdTdqODBvdnZ0bGg3eWs4dlFhd0NGaUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly90aGUtYmlnLXp1Y2siLCJpYXQiOjE2ODI2NTY5ODAsImV4cCI6MTY4Mjc0MzM4MCwiYXpwIjoiS3M2OTVFSW5lUXU3ajgwb3Z2dGxoN3lrOHZRYXdDRmkiLCJzY29wZSI6ImRlbGV0ZTpjYXRhbG9nIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.K_YghbZUaeT8IQ4YOzzQ6mMkaVOSBLIpNfHKsQ7TykBeKJ9vISjiDexPVePO0yhlu0xBi72hi7Inizk46nyWukgdHWTCsR8y9WsoTH2y3g1T3sEfuFOsiniC5S2eJPp9bajD7dVb8l39EMz0VfMfKfzg7XE-xeHaoRa1XcbRaW1_R7rm1Ro4MC81y2-_wt_yQ1BNi7Cm9uHBqmzB_-AGEKYsuA7msOHtxHSF-b2GMYluovVhmwYg09wYuUzGKr2Jvoc0Z8Z9CaSco-HBCcwuHU79INy8WJ0cW1MeUqlvJClcbwioAbhV7te9MamYZYR7B82iIh3HFDEktfI-6zkgwQ}'
